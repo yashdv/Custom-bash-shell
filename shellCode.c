@@ -1,8 +1,5 @@
 //***** YASH VADALIA *****/
-//    201001015
 
-
-// 	ASSUMPTIONS
 
 /*
 	-- If the input contains a combination of pipe and redirection operation the it is assumed that input redirection will always be first among the sub commands of the pipe and output redirections will always be the last
