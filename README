@@ -1,0 +1,18 @@
+Custom Bash Shell
+--------------------
+
+A program that can run bash commands like in Terminal.
+
+If the input contains a combination of pipe and redirection operation the it is
+assumed that input redirection will always be first among the subcommands of the
+pipe and output redirections will always be the last.
+
+While using !histn command the nth command is relaced int the place where !histn
+was there so history will not contain !histn command but the nth command. The
+same is reflected in pid all command.
+
+In pipes all the sub commands of the pipe are taken to be seperate processes and
+thus are seperately displayed in pid all command.
+
+Some commands like cd hist pid (user defined) are not executed by forking and
+thus have the pid of the parent(main) process.
